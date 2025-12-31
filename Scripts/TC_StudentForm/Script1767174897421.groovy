@@ -94,17 +94,17 @@ WebUI.setText(findTestObject('Object Repository/textarea_Address'), vCurrentAddr
 if (vState != null && vState.toString().trim() != "") {
     WebUI.scrollToElement(findTestObject('Object Repository/btn_State_Dropdown'), 2)
     WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(WebUI.findWebElement(findTestObject('Object Repository/btn_State_Dropdown'), 5)))
-    String statePath = "//div[contains(@id, 'react-select') and text()='" + vState.trim() + "']"
-    TestObject stateObj = new TestObject("dynamicState").addProperty('xpath', ConditionType.EQUALS, statePath)
-    WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(WebUI.findWebElement(stateObj, 10)))
+    TestObject stateInput = new TestObject().addProperty('xpath', ConditionType.EQUALS, "//div[@id='state']//input")
+    WebUI.setText(stateInput, vState.toString().trim())
+    WebUI.sendKeys(stateInput, Keys.chord(Keys.ENTER))
     
     WebUI.delay(1) 
-    
+
     if (vCity != null && vCity.toString().trim() != "") {
         WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(WebUI.findWebElement(findTestObject('Object Repository/btn_City_Dropdown'), 5)))
-        String cityPath = "//div[contains(@id, 'react-select') and text()='" + vCity.trim() + "']"
-        TestObject cityObj = new TestObject("dynamicCity").addProperty('xpath', ConditionType.EQUALS, cityPath)
-        WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(WebUI.findWebElement(cityObj, 10)))
+        TestObject cityInput = new TestObject().addProperty('xpath', ConditionType.EQUALS, "//div[@id='city']//input")
+        WebUI.setText(cityInput, vCity.toString().trim())
+        WebUI.sendKeys(cityInput, Keys.chord(Keys.ENTER))
     }
 }
 
