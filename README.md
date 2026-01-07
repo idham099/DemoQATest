@@ -18,7 +18,7 @@ Proyek ini adalah framework pengujian otomatis (Automation Testing) menggunakan 
 - **Dynamic Objects**: Penanganan dropdown (State & City) secara dinamis menggunakan Test Object runtime.
 
 ## 🛠️ Teknologi yang Digunakan
-- **Katalon Studio** (Version 9.x / 10.x)
+- **Katalon Studio** (Version 10)
 - **Groovy Language**
 - **Selenium WebDriver**
 - **Apache POI** (untuk pengolahan Data Excel)
