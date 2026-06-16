@@ -2,6 +2,8 @@
 
 Proyek ini adalah framework pengujian otomatis (Automation Testing) menggunakan **Katalon Studio** untuk melakukan pengujian fungsional pada form registrasi siswa di website [DemoQA](https://demoqa.com/automation-practice-form).
 
+Berikut ini Link Demonya : **https://www.youtube.com/watch?v=wqrIJ6pyOwU**
+
 <img width="1919" height="1072" alt="api0" src="https://github.com/user-attachments/assets/63bfc752-864c-4ca0-9576-dd34541dd793" />
 
 <img width="1919" height="1079" alt="api1" src="https://github.com/user-attachments/assets/6cc5b6e1-7de4-4a09-b9bb-eac384c1dd73" />
