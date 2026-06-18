@@ -15,13 +15,6 @@ Here is the article link: [Article](https://ainul-idhamid.blogspot.com/2026/01/p
 
 <img width="1919" height="1079" alt="Api3" src="https://github.com/user-attachments/assets/7379e334-a05c-4f4d-946f-b1c66e6af668" />
 
-## 📌 Key Features
-- **Data-Driven Testing (DDT)**: Supports bulk testing using external files (Excel/CSV) with up to 29+ rows of data.
-- **Positive & Negative Scenario Handling**: Smart testing logic to validate when a success modal appears and when it doesn't.
-- **Anti-Adblock & Anti-Intercept**: Uses *JavaScript Click* to bypass Google ads that often obstruct elements.
-- **Auto Translation**: Automatic month name translation feature (Indonesian -> English) for Datepicker accuracy.
-- **Dynamic Objects**: Dynamically handles dropdowns (State & City) using the Test Object runtime.
-
 ## 🛠️ Technologies Used
 - **Katalon Studio** (Version 10)
 - **Groovy Language**
