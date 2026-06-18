@@ -1,8 +1,10 @@
 # 🚀 Katalon Studio Automation: DemoQA Student Registration Form
 
-Proyek ini adalah framework pengujian otomatis (Automation Testing) menggunakan **Katalon Studio** untuk melakukan pengujian fungsional pada form registrasi siswa di website [DemoQA](https://demoqa.com/automation-practice-form).
+This project is an Automation Testing framework using **Katalon Studio** to perform functional testing on the student registration form on the website [DemoQA](https://demoqa.com/automation-practice-form).
 
-Berikut ini Link Demonya : **https://www.youtube.com/watch?v=wqrIJ6pyOwU**
+Here is the demo link: [Demo Testing](https://www.youtube.com/watch?v=wqrIJ6pyOwU)
+Here is the article link: [Article](https://ainul-idhamid.blogspot.com/2026/01/project-katalon-studio-automation.html)
+
 
 <img width="1919" height="1072" alt="api0" src="https://github.com/user-attachments/assets/63bfc752-864c-4ca0-9576-dd34541dd793" />
 
@@ -12,37 +14,37 @@ Berikut ini Link Demonya : **https://www.youtube.com/watch?v=wqrIJ6pyOwU**
 
 <img width="1919" height="1079" alt="Api3" src="https://github.com/user-attachments/assets/7379e334-a05c-4f4d-946f-b1c66e6af668" />
 
-## 📌 Fitur Utama
-- **Data-Driven Testing (DDT)**: Mendukung pengujian masal menggunakan file eksternal (Excel/CSV) hingga 29+ baris data.
-- **Handling Skenario Positif & Negatif**: Logika pengujian pintar untuk memvalidasi kapan modal sukses muncul dan kapan tidak.
-- **Anti-Adblock & Anti-Intercept**: Menggunakan *JavaScript Click* untuk menembus iklan Google yang sering menghalangi elemen.
-- **Auto Translation**: Fitur penerjemah nama bulan otomatis (Indonesia -> Inggris) untuk akurasi Datepicker.
-- **Dynamic Objects**: Penanganan dropdown (State & City) secara dinamis menggunakan Test Object runtime.
+## 📌 Key Features
+- **Data-Driven Testing (DDT)**: Supports bulk testing using external files (Excel/CSV) with up to 29+ rows of data.
+- **Positive & Negative Scenario Handling**: Smart testing logic to validate when a success modal appears and when it doesn't.
+- **Anti-Adblock & Anti-Intercept**: Uses *JavaScript Click* to bypass Google ads that often obstruct elements.
+- **Auto Translation**: Automatic month name translation feature (Indonesian -> English) for Datepicker accuracy.
+- **Dynamic Objects**: Dynamically handles dropdowns (State & City) using the Test Object runtime.
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ Technologies Used
 - **Katalon Studio** (Version 10)
 - **Groovy Language**
 - **Selenium WebDriver**
-- **Apache POI** (untuk pengolahan Data Excel)
+- **Apache POI** (for Excel data processing)
 
-## 📂 Struktur Folder
-- `Test Cases/TC_StudentForm`: Script pengujian utama.
-- `Object Repository/`: Koleksi elemen web yang digunakan.
-- `Data Files/`: File Excel/CSV sumber data pengujian.
-- `Files/`: Folder penyimpanan gambar/file untuk fitur Upload Picture.
-- `Reports/`: Hasil eksekusi dalam format PDF, XML, dan HTML.
+## 📂 Folder Structure
+- `Test Cases/TC_StudentForm`: The main test script.
+- `Object Repository/`: Collection of used web elements.
+- `Data Files/`: Excel/CSV files for the test data source.
+- `Files/`: Folder for storing images/files for the Upload Picture feature.
+- `Reports/`: Execution results in PDF, XML, and HTML formats.
 
-## 🚀 Cara Menjalankan
-1. Clone repository ini ke lokal kamu.
-2. Buka project menggunakan Katalon Studio.
-3. Pastikan file data di folder `Data Files` sudah terhubung dengan benar di Test Suite.
-4. Klik **Run** pada **Test Suite** menggunakan browser Chrome.
+## 🚀 How to Run
+1. Clone this repository to your local environment.
+2. Open the project using Katalon Studio.
+3. Ensure the data files in the `Data Files` folder are properly linked in the Test Suite.
+4. Click **Run** in **Test Suite** using the Chrome browser.
 
-## 📊 Hasil Pengujian (Reports)
-Pengujian ini menghasilkan laporan otomatis yang mencakup:
-- Status Pass/Fail per baris data.
-- Screenshot otomatis saat terjadi kegagalan (failure).
-- Laporan PDF yang siap digunakan untuk dokumentasi QA.
+## 📊 Test Results (Reports)
+This test generates an automatic report that includes:
+- Pass/Fail status per data row.
+- Automatic screenshots when a failure occurs.
+- PDF report ready for QA documentation.
 
 ---
-Created by Ainul idham
+Created by Ainul Idham
