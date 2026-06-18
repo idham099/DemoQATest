@@ -3,6 +3,7 @@
 This project is an Automation Testing framework using **Katalon Studio** to perform functional testing on the student registration form on the website [DemoQA](https://demoqa.com/automation-practice-form).
 
 Here is the demo link: [Demo Testing](https://www.youtube.com/watch?v=wqrIJ6pyOwU)
+
 Here is the article link: [Article](https://ainul-idhamid.blogspot.com/2026/01/project-katalon-studio-automation.html)
 
 
