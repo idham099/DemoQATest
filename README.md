@@ -1,4 +1,4 @@
-# 🚀 Katalon Studio Automation: DemoQA Student Registration Form
+# Katalon Studio Automation: DemoQA Student Registration Form
 
 This project is an Automation Testing framework using **Katalon Studio** to perform functional testing on the student registration form on the website [DemoQA](https://demoqa.com/automation-practice-form).
 
